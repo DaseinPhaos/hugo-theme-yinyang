@@ -1,9 +1,21 @@
 /* global */
 
 body {
-  font-family: "Bree Serif", sans-serif;
+  font-family: "Arvo", "Microsoft YaHei", sans-serif;
   -webkit-font-smoothing: antialiased;
   margin: 0 20px;
+  font-weight: 420;
+}
+
+.chroma {
+  font-size: 14px;
+}
+
+code {
+  font-family: "DM Mono", monospace;
+  line-height: 110%;
+  padding: 0.2em;
+  word-break: normal;
 }
 
 article {
@@ -171,7 +183,7 @@ a:hover {
 }
 
 .post-date {
-  font-weight: 800;
+  font-weight: 600;
   font-style: italic;
 }
 
@@ -227,7 +239,7 @@ a:hover {
 
 .gallery-img-desc {
   font-size: 0.8em;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 /* disqus */
